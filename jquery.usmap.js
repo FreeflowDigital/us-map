@@ -280,9 +280,9 @@
 
       for(var state in this.stateHitAreas) {
         this.stateHitAreas[state].toFront();
-        $(this.stateHitAreas[state].node).bind('mouseout', this._onMouseOutProxy);
-        $(this.stateHitAreas[state].node).bind('click', this._onClickProxy);
-        $(this.stateHitAreas[state].node).bind('mouseover', this._onMouseOverProxy);
+        $(this.stateHitAreas[state].node).bind('mouseout touchend', this._onMouseOutProxy);
+        $(this.stateHitAreas[state].node).bind('click touchend', this._onClickProxy);
+        $(this.stateHitAreas[state].node).bind('mouseover touchstart', this._onMouseOverProxy);
 
       }
     },
@@ -455,9 +455,9 @@
       // Bind events
       for(var state in this.labelHitAreas) {
         this.labelHitAreas[state].toFront();
-        $(this.labelHitAreas[state].node).bind('mouseout', this._onMouseOutProxy);
-        $(this.labelHitAreas[state].node).bind('click', this._onClickProxy);
-        $(this.labelHitAreas[state].node).bind('mouseover', this._onMouseOverProxy);
+        $(this.labelHitAreas[state].node).bind('mouseout touchend', this._onMouseOutProxy);
+        $(this.labelHitAreas[state].node).bind('click touchend', this._onClickProxy);
+        $(this.labelHitAreas[state].node).bind('mouseover touchstart', this._onMouseOverProxy);
       }
     },
 
