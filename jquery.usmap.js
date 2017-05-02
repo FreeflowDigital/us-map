@@ -363,7 +363,7 @@
       }
 
       var otherStates = {
-        HI: {x:295, y:560, full: "Hawaii"},
+        HI: {x:332, y:567, full: "Hawaii"},
         AK: {x:120, y:495, full: "Alaska"},
         CA: {x:70,  y:280, full: "California"},
         NV: {x:130, y:235, full: "Nevada"},
