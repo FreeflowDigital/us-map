@@ -406,6 +406,7 @@
         GA: {x:710, y:410, full: "Georgia"},
         FL: {x:763, y:508, full: "Florida"},
 //        var neStates = ['VT', 'NH', 'MA', 'RI', 'CT', 'NJ', 'DE', 'MD', 'DC'];
+        /*
         VT: {x:845, y:120, full: ""},
         NH: {x:867, y:130, full: ""},
         MA: {x:865, y:154, full: ""},
@@ -415,6 +416,7 @@
         DE: {x:830, y:245, full: ""},
         MD: {x:800, y:235, full: ""},
         DC: {x:805, y:255, full: ""},
+        */
 
       };
       if(this.options.useAllLabels || this.options.showDataValues){
